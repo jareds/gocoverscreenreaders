@@ -19,6 +19,12 @@ func partialCoverage(num int) int {
 			returnValue += i
 		}
 		return returnValue
+	} else if num == 8 {
+		return 8
+	} else if num == 9 {
+		return 9
+	} else if num == 321 {
+		return 321
 	} else {
 		return -1
 	}
